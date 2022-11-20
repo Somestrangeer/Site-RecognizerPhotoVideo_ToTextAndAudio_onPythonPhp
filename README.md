@@ -46,3 +46,8 @@ echo($text)
 ```
 
 Для удобства ***CSS*** файлы и ***JS*** были помещены в отдельные папки, как и изображения. Были соблюдены медиа-запросы на 4 типа экранов.
+
+## Иерархическая схема взаимодействия файлов
+
+
+![Image alt](https://github.com/Somestrangeer/Site-RecognizerPhotoVideo_ToTextAndAudio_onPythonPhp/blob/main/images/scheme.png)
