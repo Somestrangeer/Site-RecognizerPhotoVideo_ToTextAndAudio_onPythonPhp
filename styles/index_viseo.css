@@ -1,0 +1,142 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			body {
+				background: linear-gradient(#191c20, #24292e 15%);
+			}
+			.container-for-all {
+				height: 800px;
+				width: 100%;
+			}
+			.buttonsub {
+				position: absolute;
+				left: 700px;
+				top: 660px;
+				width: 200px;
+				height: 60px;
+				border: 1px solid white;
+				border-radius: 10px;
+				background-color: #24292e;
+				color: white;
+				font-family: 'Nicholson Gothic', sans-serif;
+				font-size: 28px;
+				text-align: center;
+			}
+			.buttonsub:hover {
+				transition: all ease-in-out;
+				background-color: white;
+				color:#24292e;
+			}
+			.lang-target {
+				position: absolute;
+				top: 660px;
+				left: 400px;
+				width: 200px;
+				height: 60px;
+				border: 1px solid #24292e;	
+				background-color: #24292e;
+				color: white;
+				font-family: 'Nicholson Gothic', sans-serif;
+				font-size: 28px;
+				text-align: center;
+			}
+			.button-to-load {
+				position: absolute;
+				width: 300px;
+				height: 300px;
+				background: linear-gradient(to bottom, #8241f9, #4e277b);
+				left: 650px;
+				top: 300px;
+				border: 1px solid black;
+				border-radius: 10px;
+			} 
+			.button-to-load:hover {
+				transition: all 0.4s ease;
+				left: 499px;
+				width:600px;
+				
+			}
+			.image-button {
+				position: absolute;
+				width:160px;
+				top: 40px;
+				right: 70px;
+			}
+			.button-to-load:hover .image-button {
+				transition: all 0.4s ease;
+				right: 219px;
+				
+			}
+			.button-to-load .span-text {
+				position: absolute;
+				font-size: 30px;
+				color: azure;
+				font-family: 'Nicholson Gothic', sans-serif;
+				left: 65px;
+				top: 240px;
+			}
+			.button-to-load:hover .span-text {
+				transition: all 0.4s ease;
+				left: 215px;
+			}
+			.file_video {
+				width: 200px;
+				height: 60px;
+				opacity: 0;
+			}
+			.button-to-load:hover .file_video{
+				width: 600px;
+				height: 300px;
+			}
+			.button-to-load .dop {
+				position: absolute;
+				font-size: 30px;
+				color: azure;
+				font-family: 'Nicholson Gothic', sans-serif;
+				left: 85px;
+				top: 240px;
+			}
+			.button-to-load:hover .dop {
+				transition: all 0.4s ease;
+				left: 235px;
+			}
+			.preloader {
+				position: fixed;
+				left: 0px;
+				right: 0px;
+				height: 100%;
+				width: 100%;
+				background-color: black;
+				z-index: 2;
+				transition: 1s all;
+				opacity: 1;
+				visibility: visible;
+
+
+			}
+			.loader {
+				width: 75px;
+				height: 75px;
+				border: 10px solid white;
+				border-radius: 50%;
+				border-top-color: #8241f9;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				animation: 0.8s spins infinite linear;
+			}
+			.done {
+				opacity: 0;
+				visibility: hidden;
+			}
+			@keyframes spins {
+				from {
+					transform: translate(-50%, -50%) rotate(0deg);
+				}
+				to {
+					transform: translate(-50%, -50%) rotate(360deg);
+				}
+			}

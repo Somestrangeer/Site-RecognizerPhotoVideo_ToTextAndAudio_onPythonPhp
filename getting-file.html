@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Converting</title>
+		<link rel="stylesheet" href="styles\getting-file-for.css">
+		<link rel="stylesheet" href="styles\getting-file-for-800.css">
+		<link rel="stylesheet" href="styles\getting-file-for-1280.css">
+		<link rel="stylesheet" href="styles\getting-file-for-1600.css">
+		<link rel="stylesheet" href="styles\getting-file-for-1900.css">
+	</head>
+	<body>
+		<main>
+			<div id='page' class="preloader">
+				<div class="loader"></div>
+			</div>
+			<div class="second-container">
+				<div class="text-desctibe">
+					<label>At the end, <br> you have to choose a file</label>
+					<div class="other-text">
+						<p id="one">
+							Please, choose only a file image otherwise you'll got an error.<br>We'll do it as fast as we can
+						</p>	
+					</div>
+				</div>
+				<form enctype="multipart/form-data" method="post" action="recognition1.php" name="fileinfo" id="fileinfo">
+					<span class="no hidden" id="just">*Upload a file!</span>
+					<div class="button-to-download">
+						<div>
+							<span class="span">Upload a file</span>
+							<input type="file" name="file" accept="image/*" class="fileinput">
+						</div>
+					</div>
+					<select class="lang-target" required="required" name="language[]">
+						<option value="rus" class="ama">Russian</option>
+						<option value="eng">English</option>
+						<option value="ita">Italian</option>
+						<option value="fra">French</option>
+						<option value="spa">Spanish</option>
+						<option value="slk">Slovak</option>
+						<option value="deu">German</option>
+						<option value="ara">Arabic</option>
+						<option value="ces">Czech</option>
+					</select>
+					</div>
+					<input type="submit" name="subbut" id="MyButton" class="buttonsub" value="Send the file" disabled>
+				</form>
+			</div>
+		</main>
+		<script src="scripts\preloader.js"></script>
+		<script src="scripts\butt.js"></script>
+	</body>
+</html>

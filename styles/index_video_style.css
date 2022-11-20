@@ -1,0 +1,32 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+
+.text-desctibe label{
+	position: absolute;
+	color: white;
+	font-size: 48px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 520px;
+	top: 50px;
+}
+#one {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 540px;
+	top: 180px;
+	line-height: 1.5;
+}
+.red-warning-text {
+	color: red;
+	position: absolute;
+	font-size: 15px;
+	text-align: center;
+	left: 675px;
+	top: 260px;
+	letter-spacing: 2px;
+}
+.hidden{
+	display:none;

@@ -1,0 +1,46 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+
+.audio-downloader{
+	position: absolute;
+	right: 120px;
+	top: 430px;
+	width: 390px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.back-of-site {
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 209px;
+	top: 570px;
+}
+.back-of-site:hover {
+	transition: all 2s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.audio-back{
+	position: absolute;
+	width: 45px;
+	top: 14px;
+	left: 50px;
+}
+.audio-downloader p {
+
+	font-size: 25px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 30px;
+	left: 140px;
+}
+.audio-downloader:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}

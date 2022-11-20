@@ -1,0 +1,125 @@
+@media screen and (min-width: 800px) and (max-width: 1023px){}
+.first-container {
+	height: 1900px;
+	width: 100%;
+	}
+textarea {
+	position: absolute;
+	top: 200px;
+	left: 50px;
+	width: 886px;
+	height: 545px;
+	resize: none;
+	border: 1px solid #e6e6e6;
+}
+.copy-text {
+	position: absolute;
+	right: 45px;
+	top: 780px;
+	width: 886px;
+	height: 120px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.copy-text:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.copy-text p {
+	font-size: 60px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 30px;
+	left: 310px;
+}
+.copy-img {
+	opacity: 0;
+}
+span {
+	font-size: 70px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: white;
+	position: absolute;
+	top: 60px;
+	left: 220px;
+}
+.word-convert {
+	position: absolute;
+	right: 45px;
+	top: 920px;
+	width: 886px;
+	height: 120px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.word-convert:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.word-convert p {
+	font-size: 60px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+.word-img {
+	opacity: 0;
+}
+.back-of-site {
+	width: 400px;
+	height: 400px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 290px;
+	top: 1220px;
+}
+.back-of-site:hover {
+	transition: all 2s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.back-world {
+	position: relative;
+	width: 200px;
+	top:  49px;
+	left: 95px;
+}
+.back-of-site p {
+	font-size: 65px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 290px;
+	left: 130px;
+}
+.audio-downloader {
+	position: absolute;
+	right: 45px;
+	top: 1060px;
+	width: 886px;
+	height: 120px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.audio-downloader p {
+	font-size: 60px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 30px;
+	left: 200px;
+}
+.audio-back{
+	opacity: 0;
+}
+}

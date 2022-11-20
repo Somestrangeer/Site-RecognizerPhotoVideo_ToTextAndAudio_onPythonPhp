@@ -1,0 +1,64 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+* {
+	margin: 0 ;
+	padding: 0 ;
+}
+@media screen and (min-width: 1280px){
+	label {
+	position: absolute;
+	color: azure;
+	font-size: 60px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 290px;
+	top: 100px;
+	}
+	.text-describe p {
+	position: relative;
+	font-size: 30px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color:azure;
+	left: 270px;
+	}
+	.class-of-text-trans {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 300px;
+	top: 570px;
+	border-radius: 15px;
+	border: 1px solid black;
+	animation: pulse 2s ease-in-out infinite;
+	}
+	.class-of-video-trans {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 320px;
+	top: 570px;
+	animation: pulse 2s ease-in-out infinite;
+	}
+	#image-title {
+	position:absolute;
+	letter-spacing: 2px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 30px;
+	color: azure;
+	top: 470px;
+	left: 385px;
+	}
+	#video-title {
+	position:absolute;
+	font-family: 'Nicholson Gothic', sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color: azure;
+	top: 470px;
+	left: 765px;
+	}
+
+}

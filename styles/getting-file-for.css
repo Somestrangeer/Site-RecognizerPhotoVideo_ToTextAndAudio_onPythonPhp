@@ -1,0 +1,157 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: linear-gradient(#191c20, #24292e 15%);
+}
+.second-container {
+	height: 800px;
+	width: 100%;
+}
+.button-to-download {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 700px;
+	top: 400px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.button-to-download .span {
+	position: absolute;
+	font-size: 30px;
+	color: azure;
+	font-family: 'Nicholson Gothic', sans-serif;
+	left: 20px;
+	top: 15px;
+}
+.button-to-download .dop {
+	position: absolute;
+	font-size: 30px;
+	color: azure;
+	font-family: 'Nicholson Gothic', sans-serif;
+	left: 35px;
+	top: 15px;
+}
+.button-to-download:hover .dop {
+	transition: all 0.5s ease-in-out;
+	left: 285px;
+}
+.button-to-download:hover {
+	transition: all 0.5s ease-in-out;
+	width: 700px;
+	left:450px;
+}
+.button-to-download:hover .span {
+	transition: all 0.5s ease-in-out;
+	left: 270px;
+}
+.fileinput {
+	width: 200px;
+	height: 60px;
+	opacity: 0;
+}
+.button-to-download:hover .fileinput {
+	width: 700px;
+}
+.buttonsub {
+	position: absolute;
+	left: 700px;
+	top: 550px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+.buttonsub:hover {
+	transition: all ease-in-out;
+	background-color: white;
+	color:#24292e;
+} 
+.text-desctibe label{
+	position: absolute;
+	color: white;
+	font-size: 48px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 545px;
+	top: 100px;
+}
+#one {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 545px;
+	top: 250px;
+	line-height: 1.5;
+}
+.no {
+	position: absolute;
+	color: red;
+	font-size: 20px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	right: 720px;
+	top: 480px;
+}
+.hidden {
+	display: none;
+}
+.lang-target {
+	position: absolute;
+	top: 550px;
+	left: 420px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid #24292e;	
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+.preloader {
+				position: fixed;
+				left: 0px;
+				right: 0px;
+				height: 100%;
+				width: 100%;
+				background-color: black;
+				z-index: 2;
+				transition: 1s all ease;
+				opacity: 1;
+				visibility: visible;
+			}
+			.loader {
+				width: 75px;
+				height: 75px;
+				border: 10px solid white;
+				border-radius: 50%;
+				border-top-color: #8241f9;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+				animation: 0.8s spins infinite linear;
+			}
+			.done {
+				opacity: 0;
+				visibility: hidden;
+			}
+			@keyframes spins {
+				from {
+					transform: translate(-50%, -50%) rotate(0deg);
+				}
+				to {
+					transform: translate(-50%, -50%) rotate(360deg);
+				}
+			}

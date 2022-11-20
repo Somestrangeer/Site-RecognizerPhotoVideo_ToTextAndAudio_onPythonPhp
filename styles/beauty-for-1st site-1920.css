@@ -1,0 +1,103 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+* {
+	margin: 0 ;
+	padding: 0 ;
+}
+@media screen and (min-width: 1920px){
+	.first-container {
+	height: 1000px;
+	width: 100%;
+	}
+	label {
+	position: absolute;
+	color: azure;
+	font-size: 70px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 555px;
+	top: 100px;
+	}
+	.text-describe p {
+	position: relative;
+	font-size: 40px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 245px;
+	top: 310px;
+	color:azure;
+	margin-right: 500px;
+	line-height: 1.5;
+	}
+	.class-of-text-trans {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 500px;
+	top: 650px;
+	border-radius: 15px;
+	border: 1px solid black;
+	animation: pulse 2s ease-in-out infinite;
+	}
+	.class-of-text-trans:hover {
+	transition: all 1s ease;
+	width: 290px;
+	height: 290px;
+	}
+	.class-of-video-trans {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 500px;
+	top: 650px;
+	animation: pulse 2s ease-in-out infinite;
+	}
+	.class-of-video-trans:hover {
+	transition: all 1s ease;
+	width: 290px;
+	height: 290px;
+	}
+	#image-title {
+	position:absolute;
+	letter-spacing: 2px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 40px;
+	color: azure;
+	top: 530px;
+	left: 575px;
+	}
+	#video-title {
+	position:absolute;
+	font-family: 'Nicholson Gothic', sans-serif;
+	letter-spacing: 2px;
+	font-size: 40px;
+	color: azure;
+	top: 530px;
+	left: 1175px;
+	}
+	.title-list-img {
+	position: relative;
+	width: 200px;
+	top:51px;
+	left: 51px;
+	}
+	.title-list-video {
+	position: relative;
+	width: 255px;
+	top: 41px;
+	left: 41px;
+	}
+	.class-of-text-trans:hover .title-list-img {
+	transition: all 1s ease;
+	width: 200px;
+	transform: rotate(15deg);
+	}
+	.class-of-video-trans:hover .title-list-video {
+	transition: all 1s ease;
+	width: 255px;
+	transform: rotate(15deg);
+	}
+}

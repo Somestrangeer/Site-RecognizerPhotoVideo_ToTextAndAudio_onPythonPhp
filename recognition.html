@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="/static2/style-for-ready-800.css">
+		<link rel="stylesheet" href="/static2/recognition_style.css">
+		<link rel="stylesheet" type="text/css" href="/static2/recognition_style-800.css">
+		<link rel="stylesheet" type="text/css" href="/static2/recognition_style-1024.css">
+		<link rel="stylesheet" type="text/css" href="/static2/recognition_style-1280.css">
+		<link rel="stylesheet" type="text/css" href="/static2/recognition_style-1600.css">
+		<link rel="stylesheet" type="text/css" href="/static2/recognition_style-1920.css">
+	</head>
+	<body>
+		<main>
+			<div id='page' class="preloader">
+				<div class="loader"></div>
+			</div>
+			<div class="third-container">
+				<span>Recognition result</span>
+				<div>
+					<div class="result-text">
+					<form method="post" action="http://amochka/get-word-pyfile.php" name="word-download" enctype="multipart/form-data">
+						<textarea id="text-copy" name="text_copy">{{ name }}</textarea>
+						<div class="copy-text" onclick="myFunction()"><img src="/static/copy-text-press-button.png" width="90px" class="copy-img"><p>Copy text</p></div>
+						<button id="word-convert" type="submit" class="word-convert"><img src="/static/word.png" width="90px" class="word-img"><p>Download as Word</p></button>
+					</form>
+					<div class="audio-downloader"><img src="/static/download-audio.png" class="audio-back"><p><a href="/static4/{{ audiofile }}" download>Download Audio</a></p></div>
+					<div class="back-of-site" onclick="redirectMainSite()"><img src="/static/4343.png" class="back-world"><p>Back</p></div>	
+					<img src="/static/back1.png">
+				</div>
+				</div>
+			</div>
+		</main>
+		<script src="/static3/recognition_scr.js"></script>
+	</body>
+</html>

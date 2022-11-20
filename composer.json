@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpword": "^0.18.3",
+        "php-ffmpeg/php-ffmpeg": "^0.19.0",
+        "zloesabo/speechkit-php": "^2.0"
+    }
+}

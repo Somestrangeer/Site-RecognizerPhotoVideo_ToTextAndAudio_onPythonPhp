@@ -1,0 +1,122 @@
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+	.result-text textarea{
+    height: 550px;
+    max-height: 875px;
+    overflow: auto;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+	padding: 30px;
+	border-radius: 10px;
+
+}
+.first-container {
+	height: 2900px;
+	width: 100%;
+	}
+textarea {
+	position: absolute;
+	top: 140px;
+	left: 50px;
+	width: 640px;
+	height: 545px;
+	resize: none;
+	border: 1px solid #e6e6e6;
+}
+.copy-text {
+	position: absolute;
+	right: 20px;
+	top: 140px;
+	width: 290px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.copy-text:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.copy-text p {
+	font-size: 30px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 25px;
+	left: 110px;
+}
+#copy-img {
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	width: 90px;
+}
+span {
+	font-size: 48px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: white;
+	position: absolute;
+	top: 60px;
+	left: 50px;
+}
+.word-convert {
+	position: absolute;
+	right: 20px;
+	top: 270px;
+	width: 290px;
+	height: 80px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.word-convert:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.word-convert p {
+	font-size: 25px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 15px;
+	left: 100px;
+}
+#word-img {
+	position: absolute;
+	top: 14px;
+	left: 15px;
+	width: 90px;
+}
+.back-of-site {
+	width: 150px;
+	height: 150px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 90px;
+	top: 400px;
+}
+.back-of-site:hover {
+	transition: all 2s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.back-world {
+	position: relative;
+	width: 100px;
+	top:8px;
+	left: 30px;
+}
+.back-of-site p {
+	font-size: 25px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 110px;
+	left: 50px;
+}
+}

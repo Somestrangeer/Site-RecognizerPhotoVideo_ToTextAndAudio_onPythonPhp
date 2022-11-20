@@ -1,0 +1,86 @@
+@media screen and (min-width: 1280px){
+	.second-container {
+	height: 1000px;
+	width: 100%;
+	}
+	.text-desctibe label{
+	position: absolute;
+	color: azure;
+	font-size: 60px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 320px;
+	top: 140px;
+	}
+	#one {
+	position: absolute;
+	color: azure;
+	font-size: 30px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 255px;
+	top: 300px;
+	line-height: 1.5;
+	}
+	.button-to-download {
+	position: absolute;
+	width: 200px;
+	height: 60px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 550px;
+	top: 500px;
+	border: 1px solid black;
+	border-radius: 10px;
+	}
+	.buttonsub {
+	position: absolute;
+	left: 550px;
+	top: 650px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	}
+	.lang-target {
+	position: absolute;
+	top: 650px;
+	left: 150px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid #24292e;	
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	}
+	.button-to-download:hover .dop {
+	transition: all 0.5s ease-in-out;
+	left: 235px;
+	}
+	.button-to-download:hover {
+	transition: all 0.5s ease-in-out;
+	width: 600px;
+	left:350px;
+	}
+	.button-to-download:hover .span {
+	transition: all 0.5s ease-in-out;
+	left: 225px;
+	}
+	.button-to-download:hover .fileinput {
+	width: 600px;
+	}
+	.no {
+	position: absolute;
+	color: red;
+	font-size: 20px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	right: 570px;
+	top: 450px;
+	}
+}

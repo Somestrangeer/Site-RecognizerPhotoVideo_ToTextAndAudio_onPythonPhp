@@ -1,0 +1,118 @@
+@media screen and (min-width: 1920px){
+			.container-for-all {
+				height: 1200px;
+				width: 100%;
+			}
+			.buttonsub {
+				position: absolute;
+				left: 810px;
+				top: 860px;
+				width: 260px;
+				height: 75px;
+				border: 1px solid white;
+				border-radius: 10px;
+				background-color: #24292e;
+				color: white;
+				font-family: 'Nicholson Gothic', sans-serif;
+				font-size: 28px;
+				text-align: center;
+			}
+			.buttonsub:hover {
+				transition: all ease-in-out;
+				background-color: white;
+				color:#24292e;
+			}
+			.lang-target {
+				position: absolute;
+				top: 860px;
+				left: 400px;
+				width: 260px;
+				height: 75px;
+				border: 1px solid #24292e;	
+				background-color: #24292e;
+				color: white;
+				font-family: 'Nicholson Gothic', sans-serif;
+				font-size: 28px;
+				text-align: center;
+			}
+			.button-to-load {
+				position: absolute;
+				width: 350px;
+				height: 350px;
+				background: linear-gradient(to bottom, #8241f9, #4e277b);
+				left: 755px;
+				top: 420px;
+				border: 1px solid black;
+				border-radius: 10px;
+			} 
+			.button-to-load:hover {
+				transition: all 0.4s ease;
+				left: 650px;
+				width:600px;
+				
+			}
+			.image-button {
+				position: absolute;
+				width:190px;
+				top: 40px;
+				right: 80px;
+			}
+			.button-to-load:hover .image-button {
+				transition: all 0.4s ease;
+				right: 205px;
+				
+			}
+			.button-to-load .span-text {
+				position: absolute;
+				font-size: 40px;
+				color: azure;
+				font-family: 'Nicholson Gothic', sans-serif;
+				left: 65px;
+				top: 270px;
+			}
+			.button-to-load:hover .span-text {
+				transition: all 0.4s ease;
+				left: 190px;
+			}
+			.file_video {
+				width: 200px;
+				height: 60px;
+				opacity: 0;
+			}
+			.button-to-load:hover .file_video{
+				width: 600px;
+				height: 350px;
+			}
+			.button-to-load .dop {
+				position: absolute;
+				font-size: 40px;
+				color: azure;
+				font-family: 'Nicholson Gothic', sans-serif;
+				left: 85px;
+				top: 270px;
+			}
+			.button-to-load:hover .dop {
+				transition: all 0.4s ease;
+				left: 205px;
+			}
+			.text-desctibe label{
+				position: absolute;
+				color: white;
+				font-size: 70px;
+				font-family: 'Nicholson Gothic', sans-serif;
+				text-align: center;
+				left: 530px;
+				top: 60px;
+			}
+			#one {
+				position: absolute;
+				color: white;
+				font-size: 40px;
+				font-family: 'Nicholson Gothic', sans-serif;
+				text-align: center;
+				left: 380px;
+				top: 190px;
+				line-height: 1.5;
+				margin: 50px;
+			}
+}

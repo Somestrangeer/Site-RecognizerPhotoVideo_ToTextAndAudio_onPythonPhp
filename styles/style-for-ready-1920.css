@@ -1,0 +1,128 @@
+@media screen and (min-width: 1920px){
+	.third-container {
+	height: 1100px;
+	width: 100%;
+}
+*, :active, :focus {
+    outline: none;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.result-text textarea{
+    height: 700px;
+    max-height: 875px;
+    overflow: auto;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+	padding: 30px;
+	border-radius: 10px;
+
+}
+textarea {
+	position: absolute;
+	top: 160px;
+	left: 130px;
+	width: 1106px;
+	height: 545px;
+	resize: none;
+	border: 1px solid #e6e6e6;
+}
+.copy-text {
+	position: absolute;
+	right: 80px;
+	top: 150px;
+	width: 490px;
+	height: 90px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.copy-text:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.copy-text p {
+	font-size: 40px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 25px;
+	left: 170px;
+}
+#copy-img {
+	position: absolute;
+	width: 110px;
+	top: 14px;
+	left: 30px;
+}
+span {
+	font-size: 70px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: white;
+	position: absolute;
+	top: 60px;
+	left: 130px;
+}
+.word-convert {
+	position: absolute;
+	right: 80px;
+	top: 300px;
+	width: 490px;
+	height: 90px;
+	border: 1px solid black;
+	border-radius: 10px;
+	align-items: center;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+.word-convert:hover {
+	transition: all 1s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.word-convert p {
+	font-size: 40px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 25px;
+	left: 130px;
+}
+#word-img {
+	position: absolute;
+	width: 110px;
+	top: 14px;
+	left: 30px;
+}
+.back-of-site {
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	position: absolute;
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 179px;
+	top: 460px;
+}
+.back-of-site:hover {
+	transition: all 2s ease;
+	background: linear-gradient(to bottom, #4e277b, #8241f9);
+}
+.back-world {
+	position: relative;
+	width: 180px;
+	top: 21px;
+	left: 61px;
+}
+.back-of-site p {
+	font-size: 40px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	color: azure;
+	position: absolute;
+	top: 230px;
+	left: 105px;
+}
+}

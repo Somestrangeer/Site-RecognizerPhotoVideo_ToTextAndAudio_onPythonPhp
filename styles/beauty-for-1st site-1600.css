@@ -1,0 +1,103 @@
+@import url('http://fonts.cdnfonts.com/css/nicholson-gothic');
+* {
+	margin: 0 ;
+	padding: 0 ;
+}
+@media screen and (min-width: 1600px){
+	label {
+	position: absolute;
+	color: white;
+	font-size: 48px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 515px;
+	top: 100px;
+}
+.text-describe p {
+	position: absolute;
+	font-size: 20px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 500px;
+	top: 250px;
+	color:azure;
+	margin-right: 500px;
+	line-height: 1.5;
+}
+.first-container {
+	height: 900px;
+	width: 100%;
+}
+.class-of-text-trans {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 500px;
+	top: 450px;
+	border-radius: 15px;
+	border: 1px solid black;
+	animation: pulse 2s ease-in-out infinite;
+}
+.class-of-text-trans:hover {
+	transition: all 1s ease;
+	width: 220px;
+	height: 220px;
+}
+.class-of-video-trans {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	border: 1px solid black;
+	border-radius: 15px;
+	right: 500px;
+	top: 450px;
+	animation: pulse 2s ease-in-out infinite;
+}
+.class-of-video-trans:hover {
+	transition: all 1s ease;
+	width: 220px;
+	height: 220px;
+}
+#image-title {
+	position:absolute;
+	letter-spacing: 2px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 20px;
+	color: azure;
+	top: 390px;
+	left: 575px;
+}
+#video-title {
+	position:absolute;
+	font-family: 'Nicholson Gothic', sans-serif;
+	letter-spacing: 2px;
+	font-size: 20px;
+	color: azure;
+	top: 390px;
+	left: 940px;
+}
+.title-list-img {
+	position: relative;
+	width: 100px;
+	top:51px;
+	left: 51px;
+}
+.title-list-video {
+	position: relative;
+	width: 145px;
+	top: 41px;
+	left: 41px;
+}
+.class-of-text-trans:hover .title-list-img {
+	transition: all 1s ease;
+	width: 120px;
+	transform: rotate(15deg);
+}
+.class-of-video-trans:hover .title-list-video {
+	transition: all 1s ease;
+	width: 160px;
+	transform: rotate(15deg);
+}
+}

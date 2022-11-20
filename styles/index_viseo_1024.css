@@ -1,0 +1,118 @@
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+.container-for-all {
+	height: 1500px;
+	width: 100%;
+}
+.buttonsub {
+	position: absolute;
+	left: 410px;
+	top: 750px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+.buttonsub:hover {
+	transition: all ease-in-out;
+	background-color: white;
+	color:#24292e;
+}
+.lang-target {
+	position: absolute;
+	top: 750px;
+	left: 710px;
+	width: 200px;
+	height: 60px;
+	border: 1px solid #24292e;	
+	background-color: #24292e;
+	color: white;
+	font-family: 'Nicholson Gothic', sans-serif;
+	font-size: 28px;
+	text-align: center;
+}
+.button-to-load {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to bottom, #8241f9, #4e277b);
+	left: 360px;
+	top: 350px;
+	border: 1px solid black;
+	border-radius: 10px;
+} 
+.button-to-load:hover {
+	transition: all 0.4s ease;
+	left: 360px;
+	width:300px;
+				
+}
+.image-button {
+	position: absolute;
+	width: 170px;
+	top: 40px;
+	right: 60px;
+}
+.button-to-load:hover .image-button {
+	transition: all 0.4s ease;
+	right: 60px;
+				
+}
+.button-to-load .span-text {
+	position: absolute;
+	font-size: 35px;
+	color: azure;
+	font-family: 'Nicholson Gothic', sans-serif;
+	left: 55px;
+	top: 240px;
+}
+.button-to-load:hover .span-text {
+	transition: all 0.4s ease;
+	left: 55px;
+}
+.file_video {
+	width: 300px;
+	height: 300px;
+	opacity: 0;
+}
+.button-to-load:hover .file_video{
+	width: 300px;
+	height: 300px;
+}
+.button-to-load .dop {
+	position: absolute;
+	font-size: 30px;
+	color: azure;
+	font-family: 'Nicholson Gothic', sans-serif;
+	left: 85px;
+	top: 240px;
+}
+.button-to-load:hover .dop {
+	transition: all 0.4s ease;
+	left: 85px;
+}
+.text-desctibe label{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 270px;
+	top: 60px;
+}
+#one {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: 'Nicholson Gothic', sans-serif;
+	text-align: center;
+	left: 74px;
+	top: 140px;
+	line-height: 1.5;
+	margin: 50px;
+}
+}

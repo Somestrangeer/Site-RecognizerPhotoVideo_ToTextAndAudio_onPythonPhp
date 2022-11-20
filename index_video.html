@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/static2/index_viseo.css">
+		<link rel="stylesheet" type="text/css" href="/static2/index_video_style.css">
+		<link rel="stylesheet" type="text/css" href="/static2/index_viseo_800.css">
+		<link rel="stylesheet" type="text/css" href="/static2/index_viseo_1024.css">
+		<link rel="stylesheet" type="text/css" href="/static2/index_viseo_1280.css">
+		<link rel="stylesheet" type="text/css" href="/static2/index_viseo_1920.css">
+	</head>
+	<body>
+		<main>
+			<div class="container-for-all">
+				<div id="page" class="preloader">
+					<div class="loader"></div>
+				</div>
+				<div class="text-desctibe">
+					<label>At the end, <br> you have to choose a video</label>
+					<div class="other-text">
+						<p id="one">
+							Please, choose only a videofile otherwise you'll got an error.<br>We'll do it as fast as we can
+						</p>	
+					</div>
+				</div>
+				<div>
+					<p class="red-warning-text hidden">It must be less than 10 minutes!</p>
+				</div>
+				
+				<form enctype="multipart/form-data" method="post" action="http://127.0.0.1:8080/get_files" class="formVideo">
+					<span>some text</span>
+					<div class="button-to-load">
+						<div>
+							<span class="span-text">Upload a file</span>
+							<img src="/static/dowvnload.png" class="image-button">
+							<input type="file" name="video_file" class="file_video" id="video_file1" onchange="getElement()" accept="video/*">
+						</div>
+						
+					</div>
+					<div>
+						<select class="lang-target" required="required" name="language[]">
+							<option value="rus">Russian</option>
+							<option value="eng">English</option>
+							<option value="ita">Italian</option>
+							<option value="fra">French</option>
+							<option value="spa">Spanish</option>
+							<option value="slk">Slovak</option>
+							<option value="deu">German</option>
+							<option value="ara">Arabic</option>
+							<option value="ces">Czech</option>
+						</select>
+						<input type="submit" name="subbut" id="MyButton" class="buttonsub" value="Send the file" disabled>
+					</div>
+				</form>
+			</div>
+		</main>
+		<script src="/static3/video_index.js"></script>
+		<script src="/static3/preloader.js"></script>
+	</body>
+</html>
